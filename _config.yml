@@ -1,0 +1,21 @@
+title: Hermanos Duarte - Arepas Venezolanas
+email: HermanosDuarte.com
+description: Hermanos Duarte donde encontraras las mejores arepas Venezolas del mundo.
+author: HermanosDuarte
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+permalink: :title.html
+
+source:      .
+destination: ./_site
+plugins_dir: ./_plugins
+layouts_dir: ./_layouts
+data_dir:    ./_data
+
+permalink: /:title.html
+
+# Plugins
+whitelist: []
+gems: [jekyll-paginate]
